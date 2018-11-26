@@ -1,0 +1,45 @@
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	background: grey;
+}
+/*.container::after{
+	content: "";
+	clear: both;
+	display: block;
+}*/
+.d-inline-block{
+	display: inline-block;
+}
+
+.logo img{
+	width: 100px;
+	float: left;
+}
+.nav{
+	float: right;
+	display: inline-block;
+}
+.clear {
+	clear:both;
+}
+.navli{
+	margin-right: 20px;
+	line-height: 100px;
+}
+/*.navli::after{
+	content: "";
+	height: 30px;
+	width: 10px;
+	border-radius: 4px;
+	background: red;
+	display: inline-block;
+}*/
+/*.navli::before{
+	content: "";
+	height: 30px;
+	width: 10px;
+	border-radius: 4px;
+	background: red;
+	display: inline-block;
+}*/
